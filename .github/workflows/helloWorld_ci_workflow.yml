@@ -1,0 +1,15 @@
+name: hello world workflow
+# This workflow is triggered on pushes to the repository.
+on: [push]
+
+jobs:
+  build:
+    name: CI
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout master
+        uses: actions/checkout@v1
+      - name: configure
+        run: cmake .
+      - name: build
+        run: make

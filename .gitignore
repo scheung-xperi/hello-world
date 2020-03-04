@@ -1,0 +1,5 @@
+# Local gitignore settings for project
+
+# Mac specific
+xcuserdata
+.DS_Store
