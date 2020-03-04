@@ -8,6 +8,9 @@
 #include<iostream>
  
 int main(int argc, char *argv[]){
+    
+    // add invalid line to test build
+    i = 0
    std::cout << "Hello World!" << std::endl;
    return 0;
 }
